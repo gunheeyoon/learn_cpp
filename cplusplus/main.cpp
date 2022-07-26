@@ -10,5 +10,15 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    for(int i = 0; i < 10; i++) {
+        std::cout << i;
+    }
+    std::cout << std::endl;
+    
+    for(int i = 0; i < 10; ++i) {
+        std::cout << i;
+    }
+    std::cout << std::endl;
     return 0;
 }
